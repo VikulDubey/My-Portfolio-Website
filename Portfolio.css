@@ -32,4 +32,34 @@ ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;
+}
+
+/* Media Query */
+
+@media only screen and (max-width:636px){
+  .maindiv{
+    display: flex;
+    flex-direction: column;
+    height: 13rem !important;
+  }
+  .maindiv ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .details p{
+    text-align: justify;
+    margin: 1rem 2rem;
+  }
+}
+
+
+@media only screen and (max-width: 300px){
+  .gif img{
+    display: block;
+    margin: auto;
+    width: 50%;
+  }
 }

@@ -1,6 +1,5 @@
 body {
-  background: url(./Images/yousef-espanioly-DA_tplYgTow-unsplash.jpg);
-  background-size: cover;
+  background: url(./Images/yousef-espanioly-DA_tplYgTow-unsplash.jpg) no-repeat ;
 }
 ul li a {
   color: #a0a0a0;
@@ -77,7 +76,6 @@ ul li a:hover {
   background-color: transparent;
 }
 
-/* Media Queries */
 
 body {
   animation: fadein 3s ease 1 forwards;
@@ -90,3 +88,37 @@ body {
     opacity: 1;
   }
 }
+
+/* Media Queries */
+
+@media only screen and (max-width:636px){
+  .maindiv{
+    display: flex;
+    flex-direction: column;
+    height: 13rem !important;
+  }
+  .maindiv ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .midsection{
+    text-align: center;
+  }
+  }
+
+  @media only screen and (max-width: 300px) {
+    body{
+      overflow: hidden
+    }
+    .midsection{
+      margin-top: 3rem;
+    }
+    .lastsection img {
+      margin-top: 10rem;
+    }
+    .hireme{
+      margin-top: 5rem;
+    }
+  }

@@ -85,3 +85,45 @@ ul li a:hover {
   cursor: pointer;
   border: 1px solid #5d9c59;
 }
+
+
+/* Media Query */
+
+@media only screen and (max-width:636px){
+  .maindiv{
+    display: flex;
+    flex-direction: column;
+    height: 13rem !important;
+  }
+  .maindiv ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .introduction h2{
+    text-align: start;
+    margin: 1rem 2rem;
+  }
+  .introduction p{
+    text-align: s;
+    margin: 1rem 2rem;
+  }
+  .btn input[type="submit"]{
+    margin: auto !important;
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 885px){
+  .intro{
+    display: flex;
+    flex-direction: column;
+  }
+  .illustration video{
+    display: block;
+    width: 96%;
+    margin: 2rem 0;
+    height: 14rem;
+  }
+}
