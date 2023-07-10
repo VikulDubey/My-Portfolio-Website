@@ -111,3 +111,29 @@ input[type="submit"]:hover {
     top: 0px;
   }
 }
+
+/* Media Queries */
+
+@media only screen and (max-width:636px){
+  .maindiv{
+    display: flex;
+    flex-direction: column;
+    height: 13rem !important;
+  }
+  .maindiv ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactform{
+    flex-direction: column-reverse;
+    height: 31rem;
+  }
+  .formcol{
+    width: 100%;
+  }
+  form h2{
+    font-size: 2rem ;
+  }
+}

@@ -91,9 +91,11 @@ ul li a:hover {
 
 @media only screen and (max-width:636px){
   .maindiv{
-    display: flex;
     flex-direction: column;
     height: 13rem !important;
+  }
+  body,.intro{
+    overflow-x: hidden;
   }
   .maindiv ul {
     display: flex;
@@ -103,27 +105,37 @@ ul li a:hover {
   }
   .introduction h2{
     text-align: start;
-    margin: 1rem 2rem;
+    padding: 1rem 12px 0 4rem;
+    margin: 0 5rem 0 0;
   }
   .introduction p{
-    text-align: s;
-    margin: 1rem 2rem;
+    text-align: justify;
+    margin: 1rem 6rem 0 4rem;
+    padding-right: 1rem;
   }
   .btn input[type="submit"]{
     margin: auto !important;
-    display: block !important;
   }
 }
 
 @media only screen and (max-width: 885px){
+  body{
+    width: 100%;
+  }
   .intro{
     display: flex;
     flex-direction: column;
   }
   .illustration video{
     display: block;
-    width: 96%;
-    margin: 2rem 0;
-    height: 14rem;
+    width: 100%;
+    margin: 3rem 0rem;
+  }
+  .intro{
+    height: 33rem;
+  }
+  .btn {
+    text-align: center;
+    width: 100%;
   }
 }
