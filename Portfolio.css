@@ -1,14 +1,13 @@
-
-body{
+body {
   overflow: hidden;
 }
-ul li a{
+ul li a {
   color: #a0a0a0;
 }
 ul li a:hover {
   color: black;
 }
-.maindiv img{
+.maindiv img {
   width: 4rem;
 }
 .maindiv img {
@@ -34,17 +33,30 @@ ul li a:hover {
   align-items: center;
   width: auto;
 }
-
+.projects {
+  /* margin: 3rem 0 0 1rem; */
+}
+.webicon {
+  display: flex;
+  width: 34rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.description a {
+  color: #a0a0a0;
+  text-decoration: none;
+}
+.description a:hover {
+  color: black;
+}
 /* Media Query */
 
-
-@media only screen and (max-width:636px){
-  .maindiv{
+@media only screen and (max-width: 637px) {
+  .maindiv {
     display: flex;
     flex-direction: column;
     height: 13rem !important;
   }
-  body{
+  body {
     overflow: scroll;
   }
   .maindiv ul {
@@ -53,17 +65,37 @@ ul li a:hover {
     justify-content: center;
     align-items: center;
   }
-  .details p{
+  .details p {
     text-align: justify;
     margin: 1rem 2rem;
   }
+  .webicon{
+    flex-direction: column;
+    width: 100%;
+  }
+  .webicon img{
+    width: 12rem;
+    margin: auto;
+  }
+  .webicon h2{
+    text-align: center;
+  }
+  .webicon p{
+    text-align: justify;
+    padding: 0 0.8rem;
+  }
+  .description a{
+    justify-content: center;
+    display: flex;
+  }
 }
 
-
-@media only screen and (max-width: 300px){
-  .gif img{
-    display: block;
-    margin: auto;
-    width: 50%;
+@media only screen and (max-width: 375px) {
+  .maindiv{
+    align-items: center;
+    justify-content: center;
+  }
+  .webicon{
+    width: 100%;
   }
 }
