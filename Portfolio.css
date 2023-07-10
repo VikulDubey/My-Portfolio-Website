@@ -33,6 +33,17 @@ ul li a:hover {
   align-items: center;
   width: auto;
 }
+
+
+
+.projects{
+  display: flex;
+  justify-content: space-evenly;
+}
+.project_2 img{
+  width: 10rem;
+  margin: 0 0.5rem;
+}
 .webicon {
   display: flex;
   width: 34rem;
@@ -45,6 +56,10 @@ ul li a:hover {
 .description a:hover {
   color: black;
 }
+
+
+
+
 /* Media Query */
 
 @media only screen and (max-width: 637px) {
@@ -94,5 +109,17 @@ ul li a:hover {
   }
   .webicon{
     width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 1110px) {
+  .projects{
+    width: 100%;
+    flex-direction: column;
+  }
+  .webicon{
+    width: 100%;
+    margin: 0.3rem 0;
   }
 }
