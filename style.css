@@ -110,7 +110,8 @@ body {
 
   @media only screen and (max-width: 300px) {
     body{
-      overflow: hidden;
+      overflow-y: scroll;
+      overflow-x: hidden;
     }
     .midsection{
       margin-top: 3rem;

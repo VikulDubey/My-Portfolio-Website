@@ -120,6 +120,10 @@ input[type="submit"]:hover {
     flex-direction: column;
     height: 13rem !important;
   }
+  body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
   .maindiv ul {
     display: flex;
     flex-direction: column;

@@ -96,6 +96,7 @@ ul li a:hover {
   }
   body,.intro{
     overflow-x: hidden;
+    overflow-y: scroll;
   }
   .maindiv ul {
     display: flex;
